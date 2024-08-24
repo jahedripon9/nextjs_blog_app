@@ -39,4 +39,5 @@ export async function POST(request) {
     console.log("Blog Saved");
 
     return NextResponse.json({ Success: true, msg:"Blog Added" })
+    
 }
