@@ -1,12 +1,12 @@
 import { assets } from "@/Assets/assets";
-import Sidebar from "@/Components/AdminComponents/sidebar";
+import Sidebar from "@/Components/AdminComponents/Sidebar";
 import Image from "next/image";
-import { ToastContainer} from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-  
+
 
 export default function layout({ children }) {
-    
+
     return (
         <>
             <div className="flex">
@@ -20,7 +20,7 @@ export default function layout({ children }) {
                     {children}
                 </div>
             </div>
-            
+
         </>
     )
 }
