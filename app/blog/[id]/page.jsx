@@ -40,19 +40,9 @@ const page = ({ params }) => {
         </div>
         <div className='mx-5 max-w-[800px] md:mx-auto mt-[-100px] mb-10'>
             <Image className='border-4 border-white' src={data.image} alt='' width={1280} height={720} />
-            <h1 className='my-8 text-[26px] font-semibold'>Introduction:</h1>
-            <p className=''>{data.description}</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Step 1: Self-Reflection and Goal Setting</h3>
-            <p className='my-3 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores aperiam ab, quam ducimus adipisci ex atque voluptatibus corrupti molestiae ullam autem delectus voluptates magnam, quidem architecto tempore provident perspiciatis esse!</p>
-            <p className='my-3 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores aperiam ab, quam ducimus adipisci ex atque voluptatibus corrupti molestiae ullam autem delectus voluptates magnam, quidem architecto tempore provident perspiciatis esse!</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Step 2: Self-Reflection and Goal Setting</h3>
-            <p className='my-3 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores aperiam ab, quam ducimus adipisci ex atque voluptatibus corrupti molestiae ullam autem delectus voluptates magnam, quidem architecto tempore provident perspiciatis esse!</p>
-            <p className='my-3 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores aperiam ab, quam ducimus adipisci ex atque voluptatibus corrupti molestiae ullam autem delectus voluptates magnam, quidem architecto tempore provident perspiciatis esse!</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Step 3: Self-Reflection and Goal Setting</h3>
-            <p className='my-3 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores aperiam ab, quam ducimus adipisci ex atque voluptatibus corrupti molestiae ullam autem delectus voluptates magnam, quidem architecto tempore provident perspiciatis esse!</p>
-            <p className='my-3 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores aperiam ab, quam ducimus adipisci ex atque voluptatibus corrupti molestiae ullam autem delectus voluptates magnam, quidem architecto tempore provident perspiciatis esse!</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Conclusion:</h3>
-            <p className='my-3 '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore corrupti eum fuga iusto quam, optio laboriosam vitae quidem iure nihil.</p>
+            
+            <div className='blog-content' dangerouslySetInnerHTML={{ __html: data.description }}></div>
+        
             <div className='my-24'>
                 <p className='text-black font-semibold my-4 '>Share this article on Social Media</p>
                 <div className='flex'>
