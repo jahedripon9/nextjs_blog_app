@@ -1,0 +1,8 @@
+[build]
+  command = "next build"
+  publish = ".next"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200
