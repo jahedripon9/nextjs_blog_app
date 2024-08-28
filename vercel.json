@@ -1,0 +1,12 @@
+{
+    "builds": [
+        {
+            "src": "next.config.js",
+            "use": "@vercel/next"
+        }
+    ],
+    "cache": [
+        "node_modules/**",
+        ".next/cache/**"
+    ]
+}

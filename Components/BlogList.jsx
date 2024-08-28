@@ -11,7 +11,7 @@ const BlogList = () => {
   const fetchBlogs = async () => {
     const response = await axios.get('/api/blog');
     setBlog(response.data.blogs);
-    console.log(response.data.blogs);
+    // console.log(response.data.blogs);
   }
 
   useEffect(() => {
