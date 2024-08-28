@@ -33,7 +33,7 @@ const Header = () => {
                 <p className='mt-10 mxx-w-[740px] m-auto text-xs sm:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ex laudantium sit qui! Fugit, sapiente.</p>
                 <form onSubmit={onSubmitHandler} className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]' action="">
                     <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" placeholder='Enter your Email' className='pl-4 outline-none' />
-                    <button  type='submit' className='border-l border-black py-4 px4 sm:px-8 active:bg-gray-600 active:text-white'>Subscribe</button>
+                    <button type='submit' className='border-l border-black py-4 px4 sm:px-8 active:bg-gray-600 active:text-white'>Subscribe</button>
                 </form>
             </div>
         </div>
