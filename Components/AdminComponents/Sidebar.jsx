@@ -8,7 +8,7 @@ const Sidebar = () => {
         <div className='flex flex-col bg-slate-100 h-full sm:h-auto'>
             {/* Logo Section */}
             <div className='px-4 py-4 sm:py-6 border-b border-black flex justify-center sm:justify-start'>
-                <Image src={assets.logo} alt='Logo' width={120} height={60} className='block' />
+                <Link href='/'><Image src={assets.logo} alt='Logo' width={120} height={60} className='block' /></Link>
             </div>
 
             {/* Links Section */}
