@@ -15,7 +15,7 @@ const Sidebar = () => {
             <div className='w-full sm:w-80 min-h-screen py-6 px-4 border-t sm:border-none border-black relative'>
                 <div className='flex flex-col space-y-6'>
                     {/* Add Blog Link */}
-                    <Link href='/admin/addBlog' className='flex items-center border border-black gap-3 font-medium px-4 py-2 bg-white shadow-[3px_3px_0px_#000000] hover:bg-gray-100'>
+                    <Link href='/admin/addProduct' className='flex items-center border border-black gap-3 font-medium px-4 py-2 bg-white shadow-[3px_3px_0px_#000000] hover:bg-gray-100'>
                         <Image src={assets.add_icon} alt='Add Icon' width={28} height={28} />
                         <p>Add Blog</p>
                     </Link>
